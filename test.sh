@@ -9,10 +9,9 @@ Message=$Time
 Lines=$(cat $File)
 
 for Line in $Lines
-do 
-    echo "$Time $Line" > test.log
-done
-
+do
+echo "$Time $Line"
+done > test.log
 
 git add .
 git commit -m "files updated at $Time"
