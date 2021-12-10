@@ -2,15 +2,17 @@
 
 Time=$(date +"%T")
 
-File="lines.txt"
+File="/home/rr2282/cs305_rr2282/lines.txt"
 
 Lines=$(cat $File)
 
 for Line in $Lines
 do
 echo "$Time $Line"
-done > test.log
+done > /home/rr2282/cs305_rr2282/test.log
 
+
+cd /home/rr2282/cs305_rr2282/
 git add .
 git commit -m "files updated at $Time"
 git push
