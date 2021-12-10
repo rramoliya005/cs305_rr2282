@@ -4,8 +4,6 @@ Time=$(date +"%T")
 
 File="lines.txt"
 
-Message=$Time
-
 Lines=$(cat $File)
 
 for Line in $Lines
