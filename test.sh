@@ -1,6 +1,6 @@
 #! /bin/bash
 
-Time=$ (date +"%T")
+Time=$(date +"%T")
 
 File="lines.txt"
 
